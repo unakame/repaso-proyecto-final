@@ -11,15 +11,25 @@
   <form id="formu" action="">
   <br><br>
   <label for="">Nombre:</label>
-  <input type="text" id="nombre" placeholder="Escribe tu nombre"><br><br>
+  <input class="input" type="text" id="nombre" placeholder="Escribe tu nombre"><br><br>
+  <span id="rellenar-nombre"></span><br><br>
   <label for="">Apellido:</label>
-  <input type="text" id="apellido" placeholder="Escribe tu apellido"><br><br>
+  <input class="input" type="text" id="apellido" placeholder="Escribe tu apellido"><br><br>
+  <span id="rellenar-apellido"></span><br><br>
   <label for="">Correo:</label>
-  <input type="email" id="correo" placeholder="Escribe tu correo"><br><br>
+  <input class="input" type="email" id="correo" placeholder="Escribe tu correo"><br><br>
+  <span id="rellenar-correo"></span><br><br>
   <label for="">Contraseña:</label>
-  <input type="password" id="contrasenia" placeholder="Escribe tu contraseña"><br><br>
-  <button name="" onclick="formLoad()">Regístrate</button>
+  <input class="input" type="password" id="contrasenia" placeholder="Escribe tu contraseña"><br><br>
+  <span id="rellenar-contrasenia"></span>
+  <a href="user.html"><button name="" onclick="formLoad()">Regístrate</button></a>
   </form>
   </div>
+  <p id="result"></p>
+  <div align="center">
+  <span id="rellenar">
+  </span>
+  </div>
+  <script src=js/main.js type="text/javascript"></script>
 </body>
 </html>
